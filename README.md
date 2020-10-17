@@ -1,1 +1,1 @@
-# test
+Beginner Projects in JavaScript.
