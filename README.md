@@ -1,1 +1,1 @@
-Beginner Projects in JavaScript.
+Beginner-friendly Projects in JavaScript.
