@@ -14,7 +14,7 @@
 	    background: url("mainBcg.jpeg") center/cover fixed no-repeat;
         }
 
-	#button1 , #button2, #button3 {
+	button {
 		display:inline-block;
 		margin:2px;
 		height:50px;
@@ -28,15 +28,17 @@
     <h2><p>Select either rock, paper, or scissors and see if you can beat the computer!</p></h2>
 
     <h3><p><strong>Remember:</strong> “Rock breaks scissors, scissors cuts paper, paper covers rock.” </p></h3>
-    <div class='score'>
+    
+    <button type='button' id="button1">Rock</button>
+    <button type='button' id="button2">Paper</button>
+    <button type='button' id="button3">Scissors</button>
 
-    </div>
     <div class='message'>
 
     </div>
-    <button type='button' id='button1'>Rock</button>
-    <button type='button' id='button2'>Paper</button>
-    <button type='button' id='button3'>Scissors</button>
+<div class='score'>
+
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
