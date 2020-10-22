@@ -1,5 +1,5 @@
 //immediate invoked function expression
-(function() {
+
   const quotes = [
     {
       quote:
@@ -41,4 +41,4 @@
     document.getElementById("quote").textContent = quotes[random].quote;
     document.querySelector(".author").textContent = quotes[random].author;
   });
-})();
+})
