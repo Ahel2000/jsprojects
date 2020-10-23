@@ -1,6 +1,6 @@
 const message=document.querySelector('.message')
 const score=document.querySelector('.score')
-const buttons=document.querySelectorAll('button')
+const buttons=document.querySelectorAll('.button')
 const winnerScores=[0,0]
 
 for(let i=0;i<buttons.length;i++){
@@ -60,7 +60,7 @@ function checkWinner(player, computer){
                 return 'Draw';
             }
 
-            if (player === 'Rock'){
+            else if (player === 'Rock'){
                 if(computer === 'Paper'){
                     return 'Computer';
                 } else {
@@ -68,7 +68,7 @@ function checkWinner(player, computer){
                 }
             }
 
-            if (player === 'Paper'){
+            else if (player === 'Paper'){
                 if (computer === 'Scissors'){
                     return 'Computer';
                 } else {
@@ -76,7 +76,7 @@ function checkWinner(player, computer){
                 }
             }
 
-            if (player === 'Scissors'){
+            else if (player === 'Scissors'){
                 if (computer === 'Rock'){
                     return 'Computer';
                 } else {
