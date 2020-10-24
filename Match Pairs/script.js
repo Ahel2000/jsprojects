@@ -57,7 +57,7 @@ for (var i = 0; i < cards.length; i++) {
     
   }
    
-}
+};
 
 
 var check = function(className) {
