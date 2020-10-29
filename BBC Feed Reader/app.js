@@ -4,6 +4,7 @@
   const date = new Date();
   document.querySelector('#date').innerHTML = date.toDateString();
     
+    //use feednami api to get the news feeds from the given url
     feednami.load(url)
     .then(feed => {
       textarea.value = ''
