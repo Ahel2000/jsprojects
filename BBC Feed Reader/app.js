@@ -8,7 +8,9 @@
     .then(feed => {
       textarea.value = ''
       for(let entry of feed.entries){
+        //create a new list item
           let li = document.createElement('li');
+        // add the title of the news feed to the list of items
           li.innerHTML = `<h4><a href="${entry.link}">${entry.title}</a></h4>`;
           //append HTML content to list 
           textarea.appendChild(li);
