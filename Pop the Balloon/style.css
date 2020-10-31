@@ -35,7 +35,6 @@ h1{
     border-radius: 100%;
     margin-top: 20px;
     display: inline-block;
-    /* float: left; */
     margin-left:20px;
     margin-right:20px;
     margin: 2.5px 2.5 px 2.5px 2.5px;
@@ -66,9 +65,7 @@ h1{
     color: #ff3300;
 }
 
-#balloon-gallery div:nth-child(4n){
-    /*clear:right;*/
-}
+
 
 
 
