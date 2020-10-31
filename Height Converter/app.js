@@ -12,7 +12,7 @@ const results = document.querySelector('#results');
     inches = parseInt(inches.value);
 
     if (isNaN(feet) || isNaN(inches)){
-        results.textContent = "Please enter a valid number!";
+        results.textContent = "Please enter a valid number for both feet and inch!";
     } else if (feet < 0 ) {
         results.textContent = "Please enter a feet value > 0";
     } else if (inches < 0 || inches >= 12) {
