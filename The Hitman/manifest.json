@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "The Hitman",
+    "description": "Replace every occurence of 'Rohit Sharma' in a webpage with 'The Hitman'",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
