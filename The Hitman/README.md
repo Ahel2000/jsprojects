@@ -1,1 +1,1 @@
-This is your Chrome extension which replaces a word or phrase with a different word or phrase. 
+This is a simple Chrome extension which replaces every occurence of the word 'Rohit Sharma' in a webpage with 'The Hitman'.
